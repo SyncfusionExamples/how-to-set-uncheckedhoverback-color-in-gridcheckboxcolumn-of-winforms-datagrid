@@ -10,11 +10,12 @@ This example illustrates how to set UncheckedHoverBack color in GridCheckBoxColu
 
 private void SfDataGrid1_QueryCheckBoxCellStyle(object sender, Syncfusion.WinForms.DataGrid.Events.QueryCheckBoxCellStyleEventArgs e)
 {
-            var uncheckedHoverBackColor = e.Style.GetType().GetProperty("UncheckedHoverBackColor", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
-            uncheckedHoverBackColor.SetValue(e.Style, Color.Red);
-            var uncheckedHoverBorderColor = e.Style.GetType().GetProperty("UncheckedHoverBorderColor", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
-            uncheckedHoverBorderColor.SetValue(e.Style, Color.Red);
+    var uncheckedHoverBackColor = e.Style.GetType().GetProperty("UncheckedHoverBackColor", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
+    uncheckedHoverBackColor.SetValue(e.Style, Color.Red);
+    var uncheckedHoverBorderColor = e.Style.GetType().GetProperty("UncheckedHoverBorderColor", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
+    uncheckedHoverBorderColor.SetValue(e.Style, Color.Red);
 }
+
 
 ```
 
