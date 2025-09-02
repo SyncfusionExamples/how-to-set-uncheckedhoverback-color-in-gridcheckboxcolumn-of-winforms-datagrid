@@ -23,7 +23,7 @@ The following screenshot shows the mouse hovered checkbox back color changed in 
 
 ![Shows the mouse hovered checkbox back color changed in SfDataGrid](CheckBoxHoverColor.png)
 
-Take a moment to peruse the [WinForms DataGrid – GridCheckBoxColumn](https://help.syncfusion.com/windowsforms/datagrid/columntypes#gridcheckboxcolumn) documentation, where you can find about gridCheckBoxColumn with code examples.
+Take a moment to peruse the [WinForms DataGrid – GridCheckBoxColumn](https://help.syncfusion.com/windowsforms/datagrid/columntypes#gridcheckboxcolumn) documentation, where you can find about gridcheckboxcolumn with code examples.
 
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
